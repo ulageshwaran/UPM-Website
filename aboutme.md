@@ -117,7 +117,7 @@ This project is proprietary software owned by UPM Technologies.
 
 ## 📧 Contact
 
-For inquiries, please visit our [contact page](https://upmtechnologies.com/contact) or email us at info@upmtechnologies.com
+For inquiries, please visit our [contact page](https://upmtechnologies.com/contact) or email us at upmtechnologies@gmail.com
 
 ---
 
