@@ -1,0 +1,28 @@
+# Environments
+venv/
+myvenv/
+env/
+.env
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Django
+db.sqlite3
+media/
+static/
+!static/img/settings.py
+# Wait, static folder usually has source files, but if collectstatic runs there, it might be ignored. 
+# In this project, 'static' seems to be the source directory based on `STATICFILES_DIRS = [ BASE_DIR / "static" ]`
+# So we SHOULD NOT ignore 'static/'. 
+# But we should ignore 'staticfiles/' or wherever collectstatic goes. 
+# settings.py doesn't define STATIC_ROOT. It defaults to None. 
+# If they used S3, maybe they didn't set STATIC_ROOT.
+# Safe default is to NOT ignore static/ if it's source.
+
+# OS
+.DS_Store
+Thumbs.db
